@@ -67,13 +67,13 @@ public class Service {
         return Response.status(201).entity("Añadido: ").build();
     }
 
-    //Informacion usuario
+    /*//Informacion usuario
     @GET
     @Path("/Usuario/{id}")
     @Consumes(MediaType.APPLICATION_JSON)
     public Usuario infousuario(@PathParam("id") int id){
 
-    }
+    }*/
 
 
 
