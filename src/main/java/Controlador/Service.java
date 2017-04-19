@@ -58,7 +58,14 @@ public class Service {
         return lista;
     }
 
-
+    //Añadir un objeto a un usuario
+    @POST
+    @Path("/Usuario/{id}")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response Objetonuevo (@PathParam("id") int id, Objetos obj) {
+        c.anadirObjetoUsuario(id, obj );
+        return Response.status(201).entity("Añadido: ").build();
+    }
 
 
 
