@@ -7,6 +7,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -21,6 +22,7 @@ public class Service {
     public Service() {
     }
 
+    //Añadir
     @POST
     @Path("/Usuario")
     @Consumes(MediaType.APPLICATION_JSON)
@@ -29,6 +31,7 @@ public class Service {
         return Response.status(201).entity("Añadido: ").build();
     }
 
+    //Modificar
     @POST
     @Path("/Usuario/{id}")
     @Consumes(MediaType.APPLICATION_JSON)
@@ -37,12 +40,27 @@ public class Service {
         return Response.status(201).entity("Usuario añadido: ").build();
     }
 
+    //Lista de usuarios
     @GET
     @Path("/Usuario")
     @Consumes(MediaType.APPLICATION_JSON)
-    public List<Objetos> listaObjetos(
-        ArrayList<Objetos>() lista;
-    )
+    public List<Usuario> listaObjetos(){
+        List<Usuario> lista = new ArrayList<Usuario>();
+        return lista;
+    }
+
+    //Lista de objetos de un usuario
+    @GET
+    @Path("/Usuario/{id}")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public List<Objetos> listaObjetos(@PathParam("id") int id){
+        List<Objetos> lista = new ArrayList<Objetos>();
+        return lista;
+    }
+
+
+
+
 
 
 
