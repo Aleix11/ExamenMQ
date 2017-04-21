@@ -20,3 +20,69 @@
 2017-04-21 16:56:26 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Bici]; Usuario: Mikel; Objetos:5
 2017-04-21 16:56:26 INFO  EetakemonManagerClass:66 - METODO: obtener objetos
 2017-04-21 16:56:26 INFO  EetakemonManagerClass:74 - RESULTADO: Usuario: Mikel; Objetos: Palo,Tijeras,Palo,Tijeras,Bici
+2017-04-21 17:03:33 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Aleix]
+2017-04-21 17:03:33 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:03:33 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Mikel]
+2017-04-21 17:03:33 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:03:33 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Palo]
+2017-04-21 17:03:33 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Palo]; Usuario: Mikel; Objetos:1
+2017-04-21 17:03:33 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Tijeras]
+2017-04-21 17:03:33 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Tijeras]; Usuario: Mikel; Objetos:2
+2017-04-21 17:03:33 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Bici]
+2017-04-21 17:03:33 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Bici]; Usuario: Mikel; Objetos:3
+2017-04-21 17:03:33 INFO  EetakemonManagerClass:66 - METODO: obtener objetos
+2017-04-21 17:03:33 INFO  EetakemonManagerClass:74 - RESULTADO: Usuario: Mikel; Objetos: Palo,Tijeras,Bici
+2017-04-21 17:03:38 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Aleix]
+2017-04-21 17:03:38 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:03:38 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Mikel]
+2017-04-21 17:03:38 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:03:38 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Palo]
+2017-04-21 17:03:38 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Palo]; Usuario: Mikel; Objetos:1
+2017-04-21 17:03:38 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Tijeras]
+2017-04-21 17:03:38 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Tijeras]; Usuario: Mikel; Objetos:2
+2017-04-21 17:03:38 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Aleix]
+2017-04-21 17:03:38 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Aleix]
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Mikel]
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Palo]
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Palo]; Usuario: Mikel; Objetos:1
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Tijeras]
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Tijeras]; Usuario: Mikel; Objetos:2
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Bici]
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Bici]; Usuario: Mikel; Objetos:3
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:66 - METODO: obtener objetos
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:74 - RESULTADO: Usuario: Mikel; Objetos: Palo,Tijeras,Bici
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Aleix]
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Mikel]
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Palo]
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Palo]; Usuario: Mikel; Objetos:4
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Tijeras]
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Tijeras]; Usuario: Mikel; Objetos:5
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Aleix]
+2017-04-21 17:05:16 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Aleix]
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Mikel]
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Palo]
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Palo]; Usuario: Mikel; Objetos:1
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Tijeras]
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Tijeras]; Usuario: Mikel; Objetos:2
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Bici]
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Bici]; Usuario: Mikel; Objetos:3
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:66 - METODO: obtener objetos
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:74 - RESULTADO: Usuario: Mikel; Objetos: Palo,Tijeras,Bici
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Aleix]
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Mikel]
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Palo]
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Palo]; Usuario: Mikel; Objetos:4
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:78 - METODO: añadir objeto: Objeto: [Tijeras]
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Tijeras]; Usuario: Mikel; Objetos:5
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Aleix]
+2017-04-21 17:07:12 INFO  EetakemonManagerClass:49 - Añadido!

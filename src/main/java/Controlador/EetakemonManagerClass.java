@@ -20,12 +20,12 @@ public class EetakemonManagerClass implements EetakemonManager {
     final static Logger logger = Logger.getLogger(EetakemonManagerClass.class);
     private static EetakemonManagerClass aaa;
 
-    private HashMap<Integer,Usuario> tablaUsuarios;
+    private Hashtable<Integer,Usuario> tablaUsuarios;
     private List<Objetos> objetoss;
     private int ID;
 
     private EetakemonManagerClass(){
-        tablaUsuarios = new HashMap<Integer,Usuario>();
+        tablaUsuarios = new Hashtable<>();
         objetoss = new ArrayList<Objetos>();
     }
 
