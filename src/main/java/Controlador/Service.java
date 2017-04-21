@@ -20,9 +20,10 @@ public class Service {
 
     protected  EetakemonManagerClass c;
     public Service() {
+        c=EetakemonManagerClass.getEetakemonManagerClass();
     }
 
-    //Añadir
+    //Añadir Usuario
     @POST
     @Path("/Usuario")
     @Consumes(MediaType.APPLICATION_JSON)
@@ -31,9 +32,18 @@ public class Service {
         return Response.status(201).entity("Añadido: ").build();
     }
 
-    //Modificar
+    //Añadir un objeto a un usuario
     @POST
     @Path("/Usuario/{id}")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response Objetonuevo (@PathParam("id") int id, Objetos obj) {
+        c.anadirObjetoUsuario(id, obj );
+        return Response.status(201).entity("Modificado: ").build();
+    }
+
+    //Modificar
+    @POST
+    @Path("/ModificarUsuario/{id}")
     @Consumes(MediaType.APPLICATION_JSON)
     public Response modificarUsuario(Usuario user) {
         c.anadirUsuario(user);
@@ -46,6 +56,7 @@ public class Service {
     @Consumes(MediaType.APPLICATION_JSON)
     public List<Usuario> listaObjetos(){
         List<Usuario> lista = new ArrayList<Usuario>();
+        lista = c.listarUsuarios();
         return lista;
     }
 
@@ -55,16 +66,19 @@ public class Service {
     @Consumes(MediaType.APPLICATION_JSON)
     public List<Objetos> listaObjetos(@PathParam("id") int id){
         List<Objetos> lista = new ArrayList<Objetos>();
+        lista=c.ObjetoUsuario(id);
         return lista;
     }
 
-    //Añadir un objeto a un usuario
-    @POST
+    //obtener usuario
+    @GET
     @Path("/Usuario/{id}")
-    @Consumes(MediaType.APPLICATION_JSON)
-    public Response Objetonuevo (@PathParam("id") int id, Objetos obj) {
-        c.anadirObjetoUsuario(id, obj );
-        return Response.status(201).entity("Añadido: ").build();
+    @Produces(MediaType.APPLICATION_JSON)
+    public Usuario getUsuario(@PathParam("id") int id) {
+        Usuario usu = new Usuario();
+        usu = c.InfoUsuario(id);
+        System.out.println(usu.toString());
+        return usu;
     }
 
     /*//Informacion usuario

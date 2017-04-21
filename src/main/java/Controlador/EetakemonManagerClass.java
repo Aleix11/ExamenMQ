@@ -36,18 +36,24 @@ public class EetakemonManagerClass implements EetakemonManager {
 
 
 
-    public void listarUsuarios(){
+    public List<Usuario> listarUsuarios(){
+        logger.info("METODO: Listar usuarios alfabéticamente");
+        List<Usuario> listTemp = Collections.list(tablaUsuarios.elements());
+        Collections.sort (listTemp, new Comparator<Usuario> (){
+            @Override
+            public int compare (final Usuario a, final Usuario b){
+                return (a.getNombre().compareTo(b.getNombre())); }});
 
+        logger.info("RESULTADO: "+listTemp.toString());
+        return listTemp;
     }
 
     public void anadirUsuario(Usuario aa) {
-        logger.info("Usuario: "+aa);
-        logger.trace(tablaUsuarios);
+        logger.info("Usuario: "+aa);;
         aa.setID(ID);
         tablaUsuarios.put(ID, aa);
         ID++;
         logger.info("Añadido!");
-        logger.trace(tablaUsuarios);
     }
 
     public void modificarUsuario(int ID, String nombre) {
@@ -57,21 +63,32 @@ public class EetakemonManagerClass implements EetakemonManager {
     }
 
     public Usuario InfoUsuario(int ID) {
-        logger.info("METODO: consultar información usuario: "+tablaUsuarios.get(ID).toString());
-        logger.trace(tablaUsuarios.get(ID));
-        return tablaUsuarios.get(ID);
+        logger.info("METODO: consultar información usuario: "+ ID);
+        Usuario utemp = tablaUsuarios.get(ID);
+        if (utemp == null) {
+            logger.info("RESULTADO: usuario no existente");
+        }else{
+            logger.info("RESULTADO: "+utemp.toString());
+        }
+        return utemp;
     }
 
-    public void ObjetoUsuario(int ID){
+    public List<Objetos> ObjetoUsuario(int ID){
         logger.info("METODO: obtener objetos");
         Usuario utemp = tablaUsuarios.get(ID);
         List<Objetos> otemp = utemp.getObjetosss();
-        StringBuffer buff = new StringBuffer();
-        for (Objetos o:otemp){
-            buff.append(o.getNombre()+",");
+        if (otemp.size()==0){
+            logger.info("RESULTADO: No tiene objetos");
+
+        }else {
+            StringBuffer buff = new StringBuffer();
+            for (Objetos obj : otemp) {
+                buff.append(obj.getNombre() + ",");
+            }
+            buff.deleteCharAt(buff.length() - 1);
+            logger.info("RESULTADO: Usuario: " + utemp.getNombre() + "; Objetos: " + buff.toString());
         }
-        buff.deleteCharAt(buff.length()-1);
-        logger.info("RESULTADO: Usuario: "+utemp.getNombre()+"; Objetos: "+buff.toString());
+        return otemp;
     }
 
     public void anadirObjetoUsuario(int ID, Objetos obj) {

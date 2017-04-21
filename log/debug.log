@@ -86,3 +86,22 @@
 2017-04-21 17:07:12 INFO  EetakemonManagerClass:82 - RESULTADO: Objeto añadido Objeto: [Tijeras]; Usuario: Mikel; Objetos:5
 2017-04-21 17:07:12 INFO  EetakemonManagerClass:44 - Usuario: Usuario [Id =0,Nombre=Aleix]
 2017-04-21 17:07:12 INFO  EetakemonManagerClass:49 - Añadido!
+2017-04-21 18:31:29 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=aaaaaa]
+2017-04-21 18:31:29 INFO  EetakemonManagerClass:56 - Añadido!
+2017-04-21 18:31:34 INFO  EetakemonManagerClass:40 - METODO: Listar usuarios alfabéticamente
+2017-04-21 18:31:34 INFO  EetakemonManagerClass:47 - RESULTADO: [Usuario [Id =0,Nombre=aaaaaa]]
+2017-04-21 18:31:45 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=pppppppp]
+2017-04-21 18:31:45 INFO  EetakemonManagerClass:56 - Añadido!
+2017-04-21 18:31:50 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=bbbbbbbb]
+2017-04-21 18:31:50 INFO  EetakemonManagerClass:56 - Añadido!
+2017-04-21 18:31:54 INFO  EetakemonManagerClass:40 - METODO: Listar usuarios alfabéticamente
+2017-04-21 18:31:54 INFO  EetakemonManagerClass:47 - RESULTADO: [Usuario [Id =0,Nombre=aaaaaa], Usuario [Id =2,Nombre=bbbbbbbb], Usuario [Id =1,Nombre=pppppppp]]
+2017-04-21 18:32:19 INFO  EetakemonManagerClass:95 - METODO: añadir objeto: Objeto: [ppppp]
+2017-04-21 18:32:38 INFO  EetakemonManagerClass:77 - METODO: obtener objetos
+2017-04-21 18:33:43 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=ppppp]
+2017-04-21 18:33:43 INFO  EetakemonManagerClass:56 - Añadido!
+2017-04-21 18:33:47 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=aaaaa]
+2017-04-21 18:33:47 INFO  EetakemonManagerClass:56 - Añadido!
+2017-04-21 18:33:51 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=vvvvv]
+2017-04-21 18:33:51 INFO  EetakemonManagerClass:56 - Añadido!
+2017-04-21 18:34:08 INFO  EetakemonManagerClass:77 - METODO: obtener objetos
