@@ -17,6 +17,7 @@ import java.util.List;
  */
 public class EetakemonManagerClass implements EetakemonManager {
 
+    final static Logger logger = Logger.getLogger(EetakemonManagerClass.class);
     private static EetakemonManagerClass aaa;
 
     private HashMap<Integer,Usuario> tablaUsuarios;
@@ -35,9 +36,9 @@ public class EetakemonManagerClass implements EetakemonManager {
 
 
 
-    /*public List<Usuario> listarUsuarios(){
+    public void listarUsuarios(){
 
-    }*/
+    }
 
     public void anadirUsuario(Usuario aa) {
         logger.info("Usuario: "+aa);
@@ -55,23 +56,30 @@ public class EetakemonManagerClass implements EetakemonManager {
         logger.info("Usuario modificado: "+ tablaUsuarios.get(ID).getNombre());
     }
 
-    public void InfoUsuario() {
+    public Usuario InfoUsuario(int ID) {
         logger.info("METODO: consultar información usuario: "+tablaUsuarios.get(ID).toString());
         logger.trace(tablaUsuarios.get(ID));
+        return tablaUsuarios.get(ID);
     }
 
-    public List<Objetos> ObjetoUsuario(int ID){
-        for (Objetos aaaa: tablaUsuarios.get(ID).getObjetosss()){
-            logger.info(aaaa.getId() + "-" + aaaa.getNombre());
+    public void ObjetoUsuario(int ID){
+        logger.info("METODO: obtener objetos");
+        Usuario utemp = tablaUsuarios.get(ID);
+        List<Objetos> otemp = utemp.getObjetosss();
+        StringBuffer buff = new StringBuffer();
+        for (Objetos o:otemp){
+            buff.append(o.getNombre()+",");
         }
-
-        return tablaUsuarios.get(ID).getObjetosss();
+        buff.deleteCharAt(buff.length()-1);
+        logger.info("RESULTADO: Usuario: "+utemp.getNombre()+"; Objetos: "+buff.toString());
     }
 
     public void anadirObjetoUsuario(int ID, Objetos obj) {
         logger.info("METODO: añadir objeto: "+ obj);
-        tablaUsuarios.get(ID).anadirObjeto(obj);
+        Usuario utemp = tablaUsuarios.get(ID);
+        utemp.anadirObjeto(obj);
         objetoss.add(obj);
-        logger.info("Objeto añadido "+obj.toString());
+        logger.info("RESULTADO: Objeto añadido "+ obj.toString()+"; Usuario: "+
+                utemp.getNombre()+"; Objetos:"+utemp.getObjetosss().size());
     }
 }

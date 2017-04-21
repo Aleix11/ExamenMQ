@@ -13,7 +13,9 @@ public class Usuario {
 
     public Usuario (String nombre)
     {
-        this.objetosss=objetosss;
+        this.nombre = nombre;
+        objetosss = new ArrayList<Objetos>();
+
     }
 
     public Usuario(){
@@ -26,6 +28,11 @@ public class Usuario {
 
     public void setObjetosss(List<Objetos> objetosss) {
         this.objetosss = objetosss;
+    }
+
+    public void anadirObjeto(Objetos obj)
+    {
+        objetosss.add(obj);
     }
 
     public int getID() {

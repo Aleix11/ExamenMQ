@@ -1,14 +1,19 @@
 package Controlador;
 
+import Modelo.Objetos;
+import Modelo.Usuario;
+
+import java.util.List;
+
 /**
  * Created by aleix on 19/04/2017.
  */
 public interface EetakemonManager {
     public void listarUsuarios();
-    public void anadirUsuario();
-    public void modificarUsuario();
-    public void InfoUsuario();
-    public void ObjetoUsuario();
-    public void anadirObjetoUsuario();
+    public void anadirUsuario(Usuario aa);
+    public void modificarUsuario(int ID, String nombre);
+    public Usuario InfoUsuario(int ID);
+    public void ObjetoUsuario(int ID);
+    public void anadirObjetoUsuario(int ID, Objetos obj);
 
 }
