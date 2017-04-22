@@ -223,3 +223,21 @@
 2017-04-23 00:01:08 INFO  EetakemonManagerClass:100 - RESULTADO: Objeto añadido Objeto: [ppppp]; Usuario: Aleix; Objetos:2
 2017-04-23 00:01:11 INFO  EetakemonManagerClass:78 - METODO: obtener objetos
 2017-04-23 00:01:11 INFO  EetakemonManagerClass:90 - RESULTADO: Usuario: Aleix; Objetos: Tijeras,ppppp
+2017-04-23 00:16:02 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=ppppp]
+2017-04-23 00:16:02 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 1
+2017-04-23 00:16:07 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=aaaaaa]
+2017-04-23 00:16:07 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 2
+2017-04-23 00:24:27 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=ykfgf]
+2017-04-23 00:24:27 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 1
+2017-04-23 00:24:30 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=aaaaa]
+2017-04-23 00:24:30 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 2
+2017-04-23 00:25:13 INFO  EetakemonManagerClass:60 - METODO: modificar siguiente usuario: ykfgf
+2017-04-23 00:25:13 INFO  EetakemonManagerClass:62 - Usuario modificado: bfdgbf
+2017-04-23 00:25:36 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [movil]
+2017-04-23 00:25:36 INFO  EetakemonManagerClass:100 - RESULTADO: Objeto añadido Objeto: [movil]; Usuario: bfdgbf; Objetos:1
+2017-04-23 00:25:56 INFO  EetakemonManagerClass:40 - METODO: Listar usuarios alfabéticamente
+2017-04-23 00:25:56 INFO  EetakemonManagerClass:47 - RESULTADO: [Usuario [Id =1,Nombre=aaaaa], Usuario [Id =0,Nombre=bfdgbf]]
+2017-04-23 00:26:14 INFO  EetakemonManagerClass:78 - METODO: obtener objetos
+2017-04-23 00:26:14 INFO  EetakemonManagerClass:90 - RESULTADO: Usuario: bfdgbf; Objetos: movil
+2017-04-23 00:26:29 INFO  EetakemonManagerClass:66 - METODO: consultar información usuario: 0
+2017-04-23 00:26:29 INFO  EetakemonManagerClass:72 - RESULTADO: Usuario [Id =0,Nombre=bfdgbf]

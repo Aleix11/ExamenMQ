@@ -21,10 +21,6 @@ public class Service {
     protected  EetakemonManagerClass c;
     public Service() {
         c=EetakemonManagerClass.getEetakemonManagerClass();
-        c.anadirUsuario(new Usuario("Mikel"));
-        c.anadirUsuario(new Usuario("Aleix"));
-        c.anadirObjetoUsuario(0, new Objetos("Palo"));
-        c.anadirObjetoUsuario(1, new Objetos("Tijeras"));
     }
 
     //Añadir Usuario

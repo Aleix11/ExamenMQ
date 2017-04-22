@@ -78,7 +78,7 @@ public class EetakemonManagerClass implements EetakemonManager {
         logger.info("METODO: obtener objetos");
         Usuario utemp = tablaUsuarios.get(ID);
         List<Objetos> otemp = utemp.getObjetosss();
-        if (otemp.size()==0){
+        if (otemp==null){
             logger.info("RESULTADO: No tiene objetos");
 
         }else {
