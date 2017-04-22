@@ -53,7 +53,7 @@ public class EetakemonManagerClass implements EetakemonManager {
         aa.setID(ID);
         tablaUsuarios.put(ID, aa);
         ID++;
-        logger.info("Añadido!");
+        logger.info("Añadido!" + "Tamaño tabla usuarios: "+tablaUsuarios.size());
     }
 
     public void modificarUsuario(int ID, String nombre) {

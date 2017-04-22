@@ -21,6 +21,10 @@ public class Service {
     protected  EetakemonManagerClass c;
     public Service() {
         c=EetakemonManagerClass.getEetakemonManagerClass();
+        c.anadirUsuario(new Usuario("Mikel"));
+        c.anadirUsuario(new Usuario("Aleix"));
+        c.anadirObjetoUsuario(0, new Objetos("Palo"));
+        c.anadirObjetoUsuario(1, new Objetos("Tijeras"));
     }
 
     //Añadir Usuario
@@ -34,7 +38,7 @@ public class Service {
 
     //Añadir un objeto a un usuario
     @POST
-    @Path("/Usuario/{id}")
+    @Path("/ObjetosUsuario/{id}")
     @Consumes(MediaType.APPLICATION_JSON)
     public Response Objetonuevo (@PathParam("id") int id, Objetos obj) {
         c.anadirObjetoUsuario(id, obj );

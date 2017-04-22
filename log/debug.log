@@ -175,3 +175,51 @@
 2017-04-22 11:21:51 INFO  EetakemonManagerClass:66 - METODO: consultar información usuario: 1
 2017-04-22 11:21:51 INFO  EetakemonManagerClass:72 - RESULTADO: Usuario [Id =1,Nombre=ouytegh]
 2017-04-22 11:22:28 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [hghjjkja]
+2017-04-22 23:28:38 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [hghjjkja]
+2017-04-22 23:28:53 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=hghjjkja]
+2017-04-22 23:28:53 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 1
+2017-04-22 23:29:38 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [ppppppp]
+2017-04-22 23:35:25 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=ppppppp]
+2017-04-22 23:35:25 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 1
+2017-04-22 23:35:44 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [movil]
+2017-04-22 23:43:19 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [movil]
+2017-04-22 23:43:35 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=ppppp]
+2017-04-22 23:43:35 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 1
+2017-04-22 23:58:30 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=Mikel]
+2017-04-22 23:58:30 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 1
+2017-04-22 23:58:30 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=Aleix]
+2017-04-22 23:58:30 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 2
+2017-04-22 23:58:30 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=Jose]
+2017-04-22 23:58:30 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 3
+2017-04-22 23:58:30 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [Palo]
+2017-04-22 23:58:30 INFO  EetakemonManagerClass:100 - RESULTADO: Objeto añadido Objeto: [Palo]; Usuario: Aleix; Objetos:1
+2017-04-22 23:58:30 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [Tijeras]
+2017-04-22 23:58:30 INFO  EetakemonManagerClass:100 - RESULTADO: Objeto añadido Objeto: [Tijeras]; Usuario: Aleix; Objetos:2
+2017-04-22 23:58:31 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [ppppp]
+2017-04-22 23:58:31 INFO  EetakemonManagerClass:100 - RESULTADO: Objeto añadido Objeto: [ppppp]; Usuario: Mikel; Objetos:1
+2017-04-23 00:00:13 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=Mikel]
+2017-04-23 00:00:13 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 1
+2017-04-23 00:00:13 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=Aleix]
+2017-04-23 00:00:13 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 2
+2017-04-23 00:00:13 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=Jose]
+2017-04-23 00:00:13 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 3
+2017-04-23 00:00:13 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [Palo]
+2017-04-23 00:00:13 INFO  EetakemonManagerClass:100 - RESULTADO: Objeto añadido Objeto: [Palo]; Usuario: Aleix; Objetos:1
+2017-04-23 00:00:13 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [Tijeras]
+2017-04-23 00:00:13 INFO  EetakemonManagerClass:100 - RESULTADO: Objeto añadido Objeto: [Tijeras]; Usuario: Aleix; Objetos:2
+2017-04-23 00:00:13 INFO  EetakemonManagerClass:78 - METODO: obtener objetos
+2017-04-23 00:00:13 INFO  EetakemonManagerClass:82 - RESULTADO: No tiene objetos
+2017-04-23 00:00:28 INFO  EetakemonManagerClass:78 - METODO: obtener objetos
+2017-04-23 00:00:28 INFO  EetakemonManagerClass:90 - RESULTADO: Usuario: Aleix; Objetos: Palo,Tijeras
+2017-04-23 00:01:07 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=Mikel]
+2017-04-23 00:01:07 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 1
+2017-04-23 00:01:07 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=Aleix]
+2017-04-23 00:01:07 INFO  EetakemonManagerClass:56 - Añadido!Tamaño tabla usuarios: 2
+2017-04-23 00:01:07 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [Palo]
+2017-04-23 00:01:07 INFO  EetakemonManagerClass:100 - RESULTADO: Objeto añadido Objeto: [Palo]; Usuario: Mikel; Objetos:1
+2017-04-23 00:01:07 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [Tijeras]
+2017-04-23 00:01:07 INFO  EetakemonManagerClass:100 - RESULTADO: Objeto añadido Objeto: [Tijeras]; Usuario: Aleix; Objetos:1
+2017-04-23 00:01:08 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [ppppp]
+2017-04-23 00:01:08 INFO  EetakemonManagerClass:100 - RESULTADO: Objeto añadido Objeto: [ppppp]; Usuario: Aleix; Objetos:2
+2017-04-23 00:01:11 INFO  EetakemonManagerClass:78 - METODO: obtener objetos
+2017-04-23 00:01:11 INFO  EetakemonManagerClass:90 - RESULTADO: Usuario: Aleix; Objetos: Tijeras,ppppp
