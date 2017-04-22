@@ -166,3 +166,12 @@
 2017-04-22 11:12:52 INFO  EetakemonManagerClass:72 - RESULTADO: Usuario [Id =0,Nombre=aaaaa]
 2017-04-22 11:14:09 INFO  EetakemonManagerClass:78 - METODO: obtener objetos
 2017-04-22 11:14:14 INFO  EetakemonManagerClass:78 - METODO: obtener objetos
+2017-04-22 11:21:14 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=ouytegh]
+2017-04-22 11:21:14 INFO  EetakemonManagerClass:56 - Añadido!
+2017-04-22 11:21:16 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=ouytegh]
+2017-04-22 11:21:16 INFO  EetakemonManagerClass:56 - Añadido!
+2017-04-22 11:21:25 INFO  EetakemonManagerClass:52 - Usuario: Usuario [Id =0,Nombre=aaaaa]
+2017-04-22 11:21:25 INFO  EetakemonManagerClass:56 - Añadido!
+2017-04-22 11:21:51 INFO  EetakemonManagerClass:66 - METODO: consultar información usuario: 1
+2017-04-22 11:21:51 INFO  EetakemonManagerClass:72 - RESULTADO: Usuario [Id =1,Nombre=ouytegh]
+2017-04-22 11:22:28 INFO  EetakemonManagerClass:96 - METODO: añadir objeto: Objeto: [hghjjkja]
