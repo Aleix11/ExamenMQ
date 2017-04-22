@@ -65,6 +65,7 @@ public class EetakemonManagerClass implements EetakemonManager {
     public Usuario InfoUsuario(int ID) {
         logger.info("METODO: consultar información usuario: "+ ID);
         Usuario utemp = tablaUsuarios.get(ID);
+        System.out.println(utemp);
         if (utemp == null) {
             logger.info("RESULTADO: usuario no existente");
         }else{

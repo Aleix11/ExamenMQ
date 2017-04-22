@@ -38,16 +38,16 @@ public class Service {
     @Consumes(MediaType.APPLICATION_JSON)
     public Response Objetonuevo (@PathParam("id") int id, Objetos obj) {
         c.anadirObjetoUsuario(id, obj );
-        return Response.status(201).entity("Modificado: ").build();
+        return Response.status(201).entity("Objeto añadido: ").build();
     }
 
     //Modificar
     @POST
     @Path("/ModificarUsuario/{id}")
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response modificarUsuario(Usuario user) {
-        c.anadirUsuario(user);
-        return Response.status(201).entity("Usuario añadido: ").build();
+    public Response modificarUsuario(@PathParam("id") int id,Usuario user) {
+        c.modificarUsuario(id, user.getNombre());
+        return Response.status(201).entity("Usuario modificado: ").build();
     }
 
     //Lista de usuarios
@@ -62,7 +62,7 @@ public class Service {
 
     //Lista de objetos de un usuario
     @GET
-    @Path("/Usuario/{id}")
+    @Path("/ObjetosUsuario/{id}")
     @Consumes(MediaType.APPLICATION_JSON)
     public List<Objetos> listaObjetos(@PathParam("id") int id){
         List<Objetos> lista = new ArrayList<Objetos>();
@@ -80,18 +80,4 @@ public class Service {
         System.out.println(usu.toString());
         return usu;
     }
-
-    /*//Informacion usuario
-    @GET
-    @Path("/Usuario/{id}")
-    @Consumes(MediaType.APPLICATION_JSON)
-    public Usuario infousuario(@PathParam("id") int id){
-
-    }*/
-
-
-
-
-
-
 }
