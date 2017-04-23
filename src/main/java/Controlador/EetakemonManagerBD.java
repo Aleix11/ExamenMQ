@@ -16,7 +16,7 @@ public abstract class EetakemonManagerBD {
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection ("jdbc:mysql://localhost:3306/Prueba","root", "mysql");
+            conn = DriverManager.getConnection ("jdbc:mysql://localhost:3306/Usuarios","root", "mysql");
             System.out.println("Conexion creada");
         }
         catch (Exception e)
