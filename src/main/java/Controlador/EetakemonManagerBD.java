@@ -60,6 +60,7 @@ public abstract class EetakemonManagerBD {
         } catch (com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException e){
             System.out.println("Ya existe");
         }
+
         catch (SQLException e) {e.printStackTrace();}
         catch (NullPointerException e){e.printStackTrace();}
     }
@@ -93,7 +94,7 @@ public abstract class EetakemonManagerBD {
         catch (NullPointerException e){e.printStackTrace();}
     }
 
-    //buscar por id en l abase de datos
+    //buscar por id en la base de datos
     protected  void select(int id){
         Connection con = getConnection();
         StringBuffer query = new StringBuffer("SELECT * FROM ");
@@ -228,7 +229,7 @@ public abstract class EetakemonManagerBD {
         return pk;
     }
 
-    //sustituir interrogates por valores de los campos de la clasel
+    //sustituir interrogates por valores de los campos de la clase
     private void addFieldsToQuery(PreparedStatement ps){
         int i=1;
         for(Field field : this.getClass().getDeclaredFields()) {
