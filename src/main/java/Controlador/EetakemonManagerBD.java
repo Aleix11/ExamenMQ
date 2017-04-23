@@ -5,11 +5,11 @@ import java.lang.reflect.*;
 import java.net.ConnectException;
 import java.sql.*;
 import java.util.List;
-
 /**
  * Created by aleix on 23/04/2017.
  */
 public abstract class EetakemonManagerBD {
+
     //obtener la conexión con la base de datos
     protected Connection getConnection(){
         Connection conn=null;
@@ -69,7 +69,7 @@ public abstract class EetakemonManagerBD {
     protected void update(){
         Connection con = getConnection();
         StringBuffer query = new StringBuffer("UPDATE ");
-        query .append(this.getClass().getSimpleName());
+        query.append(this.getClass().getSimpleName());
         query.append(" SET ");
         Field[] attributes = this.getClass().getDeclaredFields();
 
